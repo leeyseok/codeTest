@@ -5,7 +5,6 @@ function solution(park, routes) {
         S: [1, 0],
         W: [0, -1]
     };
-
     const numRows = park.length
     const numCols = park[0].length
     let currentRow = 0, currentCol = 0;
@@ -39,7 +38,6 @@ function solution(park, routes) {
             currentCol = col;
         }
     });
-
     return [currentRow, currentCol];
 }
 
