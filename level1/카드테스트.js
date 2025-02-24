@@ -12,7 +12,3 @@ function solution(cards1, cards2, goal) {
 
     return 'Yes';
 }
-// var a= solution(["i", "drink", "water"],["want", "to"],["i", "want", "to", "drink", "water"])
-var a= solution(["i", "water", "drink"]	,["want", "to"],	["i", "want", "to", "drink", "water"])
-
-console.log(a)
